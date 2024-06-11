@@ -1,8 +1,13 @@
-import { GlobalStyles } from "./styles/GlobalStyles";
+import Tabs from './components/Tabs/Tabs';
+import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
-	return <GlobalStyles/>;
-
+	return (
+		<>
+			<GlobalStyles />
+			<Tabs />
+		</>
+	);
 };
 
 export default App;
